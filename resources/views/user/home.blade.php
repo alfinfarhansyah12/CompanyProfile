@@ -9,7 +9,10 @@
             height: 180px;
         }
         #hero{
-            background: url('{{asset('user/images/hero-bg.jpg')}}') top center;
+            background: url('{{asset('user/images/home_property.png')}}') top center;
+            background-size: cover; /* Menjadikan gambar full dan proporsional */
+            height: 100vh; /* Set tinggi hero section agar memenuhi layar */
+            display: flex;
         }
         .image-center{
           display: block;
@@ -21,8 +24,8 @@
 @endsection
 
 @section('hero')
-    <h1>Welcome to Jogja-Travel</h1>
-    <h2>Kami adalah agen travel terpercaya dan jaminan layanan perencanaan wisata yang mudah dan murah</h2>
+    <h1>Mengenal lebih dekat <br>PT. Jembar Jaya Sukses Abadi</h1>
+    <h2>perusahaan properti terkemuka yang memberikan hunian berkualitas <br>dan solusi perumahan terbaik bagi masyarakat.</h2>
     <a href="#about" class="btn-get-started">Get Started</a>
 @endsection
 
@@ -35,7 +38,7 @@
           <div class="row about-container">
   
             <div class="col-lg-7 content order-lg-1 order-2">
-              <h2 class="title">Tentang Kami</h2>
+              <h2 class="title">Tentang Kami!!</h2>
               <p> {!!$about[0]->caption!!}</p>
             </div>
   
