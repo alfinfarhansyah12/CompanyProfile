@@ -1,4 +1,4 @@
-<h1 align="center">Website Company Profile Travel Agent</h1>
+<h1 align="center">Website Company Profile Penjualan Rumah PT. Jembar Jaya Sukses Abadi</h1>
 
 <div align="center">
   <a href="#">
@@ -18,16 +18,16 @@
   </a>
 </div>
 
-
-
 ## Pengantar
+
 &emsp; &emsp; Ini adalah website company profile yang saya buat menggunakan Framework Laravel 6 untuk backend-nya dan framework bootstrap 4 untuk tampilannya. <br />
 &emsp; &emsp; Sistem ini berfungsi untuk ajang promosi usaha Agent Travel yang kita punya, dapat juga digunakan untuk menulis blog atau artikel-artikel seputar travelling dan membagikannya di website ini, selain itu kita juga bisa menampilkan destinasi-destinasi wisata yang dapat dikunjungi dengan jasa yang kita punya sehingga pengunjung bisa melihat dan memilih sendiri destinasi yang ingin dikunjungi.<br />
-	
-	
+
 ## Fitur
+
 Fitur yang tersedia di website ini adalah
-1. Crud data Category Artikel 
+
+1. Crud data Category Artikel
 2. Crud data Artikel
 3. Crud data Destinasi Wisata
 4. Edit data About
@@ -35,12 +35,15 @@ Fitur yang tersedia di website ini adalah
 6. User dapat melihat dan mencari destinasi-destinasi yang disediakan
 
 ## Kebutuhan
+
 Software yang diperlukan untuk menjalankan aplikasi ini adalah
+
 1. [Xampp](https://www.apachefriends.org/)
 2. Web Browser (Mozilla, Chrome, Opera, dll)
 3. Composer
 
 ## Cara Instalasi
+
 1. Pastikan kamu sudah mendownload repositori ini.
 2. Ekstrak file yang sudah didownload.
 3. Letakkan repositori di dalam folder htdocts xampp kamu.
@@ -55,8 +58,8 @@ Software yang diperlukan untuk menjalankan aplikasi ini adalah
 12. ketik "php artisan serve" dan tekan enter
 13. Buka web browser dan tulis 'http://127.0.0.1:8000/' di form url lalu tekan enter.
 
-
 ## Screenshot Halaman Admin
+
 <p align='Left' valign='top'>
   <span>
 		<img src='https://github.com/DanyAdhi/Company-Profile-Laravel/blob/master/ScreenShot/admin-dashboard.png'  width=400 />
@@ -70,6 +73,7 @@ Software yang diperlukan untuk menjalankan aplikasi ini adalah
 <br />
 
 ## Screenshot Halaman User
+
 <p align='Left' valign='top'>
     <span>
         <img src='https://github.com/DanyAdhi/Company-Profile-Laravel/blob/master/ScreenShot/user-home.jpg'  width=400 />
@@ -84,10 +88,5 @@ Software yang diperlukan untuk menjalankan aplikasi ini adalah
     </span>
 </p>
 
-
-
 <br />
 <br />
-
-## Kontak
-https://danyadhi.github.io/
